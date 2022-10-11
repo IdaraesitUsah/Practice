@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Outfit:wght@500&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:antiquewhite;
+    font-family: 'Outfit', sans-serif;
+}
+
+.body{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.nav{
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #1d396e;
+}
+
+h1{
+    /* font-family: 'Alkalami', serif; */
+    color: #1d396e;
+    font-size: 130px;
+    width: 80%;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 20px;
+    /* background-color: crimson; */
+    width: 70%;
+}
+
+.text{
+    width: 45%;
+    height: 97.5vh;
+    /* background-color: aqua; */
+}
+
+.logo{
+    margin-top: 10%;
+    /* background-color: crimson; */
+    width: 100%;
+}
+
+.img1, .img2, .img3, .img4, .img5{
+    width: 25px;
+}
+
+.img2, .img3, .img4, .img5{
+    margin-left: 20px;
+}
+
+.a1{
+    margin-left: 5%;
+}
+
+.a2, .a3, .a4{
+    margin-left: 20px;
+}
+
+.a5{
+    margin-left: 40%;
+}
+
+.a6, .a7, .a8{
+    margin-left: 20px;
+}
+
+a:hover{
+    text-decoration: underline solid;
+    /* text-decoration-color: red; */
+}
+
+img{
+    width: 50%;
+    height: 80%;
+}
+
+
+
+button{
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 35%;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px silver;
+    /* margin-left: 20px; */
+}
+
+.btn{
+    background-color: #5d7599;
+}
+
+.btn:hover{
+    background-color: #abb6cb;
+}
+
+.btn2:hover{
+    background-color: #abb6cb;
+}
+
+
+.btn2{
+    margin-left: 20px;
+}

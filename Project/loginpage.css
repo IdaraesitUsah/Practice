@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Outfit:wght@400&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: #b6b6b6;
+    color: #fff;
+}
+
+.main{
+    margin-top: 1%;
+    border-radius: 10px;
+    background-color: #1d396e;
+    text-align: center;
+    width: 30%;
+    height: 95vh;
+}
+
+h3{
+    color: #fff;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.in{
+    margin-top: 35%;
+    text-align:center;
+}
+
+.remember{
+    display: flex;
+    margin-top: 5px;
+}
+
+.check{
+    width: 15px;
+    margin-left: 30px;
+}
+
+.pass{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+
+input, button{
+    width: 90%;
+    height: 50px;
+    border-radius: 50px;
+    border-color: #b6b6b6;
+    align-items: center;
+}
+
+
+input{
+    padding-left: 30px;
+}
+
+button{
+    margin-top: 5%;
+    border-style: none;
+    background-color: crimson;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button:hover{
+    background-color: red;
+}
+
+/* @media only screen and (max-width:414px){
+    .main{
+        width: 90%;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+
+    .password{
+        padding-right: 10%;
+    }
+
+    input{
+        width: 90%;
+    }
+
+    button{
+        width: 80%;
+    }
+} */
